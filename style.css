@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body
+{
+      padding: 30px;
+      margin:auto;
+      background-color: Black;
+}
 
+div
+{
+  width: 95%;
+  height: 95%;
+  margin-top: 30px
+  margin-left: auto;
+  padding-left: 30px;
+  background-color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  border-radius: 30px 30px 30px 30px;
+}
+
+input
+{
+  display: table-cell;
+}
+
+h1
+{
+  margin-left: 10px;
+  color: gray;
+  font-size: 68px;
+  font-family: sans-serif;
+}
+
+p
+{
+  font-size: 24px;
+  font-family: ser
 
