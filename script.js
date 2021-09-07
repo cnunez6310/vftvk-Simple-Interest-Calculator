@@ -7,6 +7,12 @@ function Computeint()
           amt.focus();
           return false;
          }
+         if(amt.value < "0")
+         {
+         alert("Amount can't be less than 0, please enter an positve amount");
+          amt.focus();
+          return false; 
+         }
 //grabing today's year and adding amount of years
          {
            year3 = (years * 1);
