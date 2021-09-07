@@ -7,7 +7,7 @@ function Computeint()
           amt.focus();
           return false;
          }
-         if(amt.value < 0)
+         if(amt.value < -1)
          {
          alert("Amount can't be less than 0, please enter an positve amount");
           amt.focus();
